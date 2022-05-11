@@ -24,5 +24,4 @@ jobs:
           cache: 'npm'
       - run: npm install
       - run: npm start
-      - wait-on: 'http://localhost:3000'
       - run: npm test
