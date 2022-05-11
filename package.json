@@ -18,7 +18,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test:cypress": "npx cypress run --browser chrome",
     "test": "start-server-and-test start http://localhost:3000 percy:run",
