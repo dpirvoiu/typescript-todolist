@@ -2,7 +2,7 @@
 
 describe('Test', () => {
   it('Visits the app', () => {
-    cy.visit('http://localhost:3000/');
+    cy.visit('/');
     cy.get('.heading').should('contain', 'Taskify');
   });
 });
