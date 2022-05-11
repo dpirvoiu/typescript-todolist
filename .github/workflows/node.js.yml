@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: Percy
     strategy:
       matrix:
         node-version: [16.x]
@@ -23,3 +22,4 @@ jobs:
           cache: 'npm'
       - run: npm install
       - run: npm test
+    
