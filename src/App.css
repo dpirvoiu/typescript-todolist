@@ -11,12 +11,12 @@
 }
 
 .heading {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 70px;
-    margin: 80px 0;
+    margin: 120px 0;
     color: blue;
     z-index: 1;
-    text-align: left;
+    text-align: right;
 }
 
 @media (max-width: 800px) {
