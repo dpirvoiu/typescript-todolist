@@ -1,3 +1,17 @@
 {
-  "baseUrl": "http://localhost:3000/"
+  "baseUrl": "http://localhost:3000/",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "experimentalStudio": true,
+  "experimentalSessionSupport ": true,
+  "chromeWebSecurity": false,
+  "screenshotOnRunFailure": false,
+  "waitForAnimation": true,
+  "defaultCommandTimeout": 6000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 150000,
+  "responseTimeout": 150000,
+  "video": false,
+  "failOnStatusCode": false
 }
