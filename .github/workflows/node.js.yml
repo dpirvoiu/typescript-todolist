@@ -1,23 +1,9 @@
-name: Node.js CI
-
-on: [push, pull_request]
-
-jobs:
+name: CI
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
-    steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-      - run: npm install
-      - run: npm test
-      env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+      
+      # Build
+      
+      - name: Percy Test
+        run: npx @percy/cli snapshot _site/ # or any directory such as public/
