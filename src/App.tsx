@@ -16,6 +16,9 @@ const App: React.FC = () => {
     }
   };
   console.log(todos);
+  console.log(todos);
+  console.log(todos);
+  console.log(todos);
 
   return (
     <div className='App'>
