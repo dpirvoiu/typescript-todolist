@@ -30,6 +30,11 @@ const App: React.FC = () => {
       ))}
     </div>
   );
+
+  console.log(todos);
+  console.log(todos);
+  console.log(todos);
+  console.log(todos);
 };
 
 export default App;
