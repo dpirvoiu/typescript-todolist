@@ -34,6 +34,15 @@ const App: React.FC = () => {
   console.log(todos);
   console.log(todos);
   console.log(todos);
+  console.log(todos); console.log(todos);
+  console.log(todos);
+  console.log(todos);
+  console.log(todos); console.log(todos);
+  console.log(todos);
+  console.log(todos);
+  console.log(todos); console.log(todos);
+  console.log(todos);
+  console.log(todos);
   console.log(todos);
 };
 
