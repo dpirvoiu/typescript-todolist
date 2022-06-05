@@ -45,5 +45,19 @@ const App: React.FC = () => {
   console.log(todos);
   console.log(todos);
 };
+    return (
+        <div className="App">
+            <span className="heading">Taskify</span>
+            <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
+            <TodoList todos={todos} setTodos={setTodos}/>
+            {todos.map((t)=>(<li>{t.todo}</li>))}
+        </div>)
+    console.log(todos);
+    console.log(todos);
+    console.log(todos);
+    console.log(todos);
+    console.log(todos);
+    console.log(todos);
+}
 
 export default App;
